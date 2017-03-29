@@ -1,0 +1,30 @@
+{
+  "name": "Nerdiest.me",
+  "version": "0.0.1",
+  "description": "Track your progress to becoming the nerdiest you can be!",
+  "engines": {
+    "node": "7.5.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "dotenv": "^4.0.0",
+    "ejs": "2.4.1",
+    "express": "4.13.3",
+    "pg": "4.x",
+    "request": "^2.81.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielbutts/nerdiest-me"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}
